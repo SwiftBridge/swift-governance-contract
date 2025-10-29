@@ -293,8 +293,6 @@ contract Governance is ReentrancyGuard, Ownable {
 
     /**
      * @dev Get proposal details
-     * @param _proposalId ID of the proposal
-     * @return Proposal details
      */
     function getProposal(uint256 _proposalId) 
         external 
